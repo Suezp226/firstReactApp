@@ -1,10 +1,15 @@
 .App {
-  text-align: center;
+  text-align: center; 
+  overflow: hidden;
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 100px;
   pointer-events: none;
+}
+
+.inlineBox {
+  display: inline-block;
 }
 
 @media (prefers-reduced-motion: no-preference) {
